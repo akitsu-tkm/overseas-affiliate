@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<article class="review">
+  <header class="review-header">
+    <p class="review-meta">
+      <span class="category">{{ page.category }}</span>
+      {% if page.last_updated %}<span class="updated">Updated {{ page.last_updated | date: "%B %-d, %Y" }}</span>{% endif %}
+    </p>
+    <h1>{{ page.title }}</h1>
+    {% if page.rating %}
+    <p class="rating">Our rating: <strong>{{ page.rating }}/5</strong></p>
+    {% endif %}
+  </header>
+
+  <p class="inline-disclosure">
+    <em>Disclosure: this review contains affiliate links. If you sign up
+    through them we may earn a commission, at no extra cost to you — see our
+    <a href="{{ '/affiliate-disclosure/' | relative_url }}">full disclosure</a>.
+    We only recommend tools we've genuinely evaluated.</em>
+  </p>
+
+  {% if page.affiliate_link %}
+  <div class="cta-box">
+    <a class="cta-button" href="{{ page.affiliate_link }}" target="_blank" rel="sponsored nofollow noopener">
+      Try {{ page.product_name }} →
+    </a>
+  </div>
+  {% endif %}
+
+  <div class="review-body">
+    {{ content }}
+  </div>
+
+  {% if page.affiliate_link %}
+  <div class="cta-box cta-box--bottom">
+    <a class="cta-button" href="{{ page.affiliate_link }}" target="_blank" rel="sponsored nofollow noopener">
+      Try {{ page.product_name }} →
+    </a>
+  </div>
+  {% endif %}
+</article>

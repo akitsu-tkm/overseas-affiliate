@@ -1,0 +1,28 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <h1>Find SaaS tools worth keeping.</h1>
+  <p>
+    StackScout reviews project management, design, security, learning, and
+    marketing software with one question in mind: is this still worth paying
+    for a year from now? No sponsored fluff — just tools we've actually tried.
+  </p>
+</section>
+
+<section class="review-grid">
+  {% assign reviews = site.reviews | sort: 'date' | reverse %}
+  {% if reviews.size > 0 %}
+    {% for review in reviews %}
+    <a class="review-card" href="{{ review.url | relative_url }}">
+      <span class="category">{{ review.category }}</span>
+      <h2>{{ review.title }}</h2>
+      {% if review.excerpt %}<p>{{ review.excerpt }}</p>{% endif %}
+    </a>
+    {% endfor %}
+  {% else %}
+    <p class="empty-state">First reviews are on the way — check back soon.</p>
+  {% endif %}
+</section>

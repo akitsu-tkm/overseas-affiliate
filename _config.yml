@@ -1,0 +1,47 @@
+title: StackScout
+description: >-
+  Honest, in-depth reviews of the SaaS tools worth paying for long-term —
+  project management, design, security, online learning, and marketing software.
+url: "https://stackscout.com"
+baseurl: ""
+lang: en_US
+timezone: Asia/Tokyo
+
+author:
+  name: StackScout Team
+
+# GitHub Pages builds Jekyll with this exact plugin whitelist by default —
+# all three below are safe to use without a custom build step.
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+collections:
+  reviews:
+    output: true
+    permalink: /reviews/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "reviews"
+    values:
+      layout: "review"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - templates
+  - vendor
+  - node_modules

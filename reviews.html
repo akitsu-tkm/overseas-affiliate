@@ -1,0 +1,22 @@
+---
+layout: default
+title: Reviews
+permalink: /reviews/
+---
+
+<h1>All Reviews</h1>
+
+<section class="review-grid">
+  {% assign reviews = site.reviews | sort: 'date' | reverse %}
+  {% if reviews.size > 0 %}
+    {% for review in reviews %}
+    <a class="review-card" href="{{ review.url | relative_url }}">
+      <span class="category">{{ review.category }}</span>
+      <h2>{{ review.title }}</h2>
+      {% if review.excerpt %}<p>{{ review.excerpt }}</p>{% endif %}
+    </a>
+    {% endfor %}
+  {% else %}
+    <p class="empty-state">First reviews are on the way — check back soon.</p>
+  {% endif %}
+</section>
