@@ -1,6 +1,33 @@
 ---
 layout: default
 ---
+{% if page.rating %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "SoftwareApplication",
+    "name": {{ page.product_name | jsonify }},
+    "applicationCategory": {{ page.category | jsonify }}
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "{{ page.rating }}",
+    "bestRating": "5"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "StaySaaS"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "StaySaaS"
+  },
+  "datePublished": "{{ page.date | date: '%Y-%m-%d' }}"
+}
+</script>
+{% endif %}
 <article class="review">
   <header class="review-header">
     <p class="review-meta">
@@ -38,5 +65,26 @@ layout: default
       Try {{ page.product_name }} →
     </a>
   </div>
+  {% endif %}
+
+  {% assign same_category = site.reviews | where_exp: "item", "item.url != page.url" | where: "category", page.category %}
+  {% assign related = same_category %}
+  {% if related.size < 3 %}
+    {% assign others = site.reviews | where_exp: "item", "item.url != page.url" | where_exp: "item", "item.category != page.category" | sort: "date" | reverse %}
+    {% assign related = related | concat: others %}
+  {% endif %}
+  {% assign related = related | slice: 0, 3 %}
+  {% if related.size > 0 %}
+  <aside class="related-reviews">
+    <h2>Related reviews</h2>
+    <ul>
+      {% for r in related %}
+      <li>
+        <a href="{{ r.url | relative_url }}">{{ r.product_name }} Review</a>
+        <span class="category">{{ r.category }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </aside>
   {% endif %}
 </article>

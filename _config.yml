@@ -6,6 +6,7 @@ url: "https://staysaas.com"
 baseurl: ""
 lang: en_US
 timezone: Asia/Tokyo
+logo: /assets/images/og-default.png
 
 author:
   name: StaySaaS Team
@@ -37,6 +38,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+      image: /assets/images/og-default.png
 
 exclude:
   - Gemfile

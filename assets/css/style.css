@@ -159,6 +159,28 @@ a:hover { text-decoration: underline; }
   text-align: left;
 }
 
+.related-reviews {
+  margin: 40px 0 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+.related-reviews h2 { font-size: 1.1rem; margin-bottom: 12px; }
+.related-reviews ul { list-style: none; padding: 0; margin: 0; }
+.related-reviews li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+}
+.related-reviews li:last-child { border-bottom: none; }
+.related-reviews .category {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--border);
