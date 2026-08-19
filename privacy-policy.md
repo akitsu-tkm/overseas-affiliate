@@ -8,12 +8,12 @@ permalink: /privacy-policy/
 
 _Last updated: {{ site.time | date: "%B %-d, %Y" }}_
 
-StackScout ("we", "us", "our") publishes this site at stackscout.com. This
+StaySaaS ("we", "us", "our") publishes this site at staysaas.com. This
 policy explains what information we collect and how we use it.
 
 ## Information we collect
 
-StackScout is a static site with no user accounts, comments, or forms. We do
+StaySaaS is a static site with no user accounts, comments, or forms. We do
 not collect personal information directly. If you email us, we retain that
 correspondence only to respond to you.
 
@@ -47,4 +47,4 @@ page with an updated "last updated" date.
 
 ## Contact
 
-Questions about this policy? Contact us at hello@stackscout.com.
+Questions about this policy? Contact us at hello@staysaas.com.

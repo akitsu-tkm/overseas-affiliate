@@ -1,14 +1,14 @@
-title: StackScout
+title: StaySaaS
 description: >-
   Honest, in-depth reviews of the SaaS tools worth paying for long-term —
   project management, design, security, online learning, and marketing software.
-url: "https://stackscout.com"
+url: "https://staysaas.com"
 baseurl: ""
 lang: en_US
 timezone: Asia/Tokyo
 
 author:
-  name: StackScout Team
+  name: StaySaaS Team
 
 # GitHub Pages builds Jekyll with this exact plugin whitelist by default —
 # all three below are safe to use without a custom build step.

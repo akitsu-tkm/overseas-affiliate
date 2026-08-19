@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-# About StackScout
+# About StaySaaS
 
-StackScout reviews SaaS tools across project management, design, security,
+StaySaaS reviews SaaS tools across project management, design, security,
 online learning, and marketing — with a focus on software that's still worth
 paying for after the first year, not just at signup.
 
@@ -20,4 +20,4 @@ Some of the links on this site are affiliate links — see our
 details on how that works and how it does (and doesn't) affect what we
 recommend.
 
-Questions or corrections? Reach out at hello@stackscout.com.
+Questions or corrections? Reach out at hello@staysaas.com.

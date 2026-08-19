@@ -6,12 +6,12 @@ permalink: /affiliate-disclosure/
 
 # Affiliate Disclosure
 
-StackScout is reader-supported. Some of the links on this site — including
+StaySaaS is reader-supported. Some of the links on this site — including
 links in our reviews and any "Try [Product]" buttons — are affiliate links.
 If you click through and sign up for a product, we may earn a commission
 from the company being reviewed, at **no additional cost to you**.
 
-This is how we keep StackScout free to read and independent of any single
+This is how we keep StaySaaS free to read and independent of any single
 advertiser.
 
 ## What this does — and doesn't — mean for our reviews
@@ -36,6 +36,6 @@ This disclosure is provided in accordance with the U.S. Federal Trade
 Commission's (FTC) guidelines on endorsements and testimonials, 16 CFR Part
 255.
 
-Questions about this policy? Contact us at hello@stackscout.com.
+Questions about this policy? Contact us at hello@staysaas.com.
 
 _Last updated: {{ site.time | date: "%B %-d, %Y" }}_

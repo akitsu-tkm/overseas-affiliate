@@ -1,4 +1,4 @@
-# StackScout
+# StaySaaS
 
 Static site, built with Jekyll, hosted free on GitHub Pages.
 
