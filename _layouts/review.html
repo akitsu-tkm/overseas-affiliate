@@ -31,7 +31,7 @@ layout: default
 <article class="review">
   <header class="review-header">
     <p class="review-meta">
-      <span class="category">{{ page.category }}</span>
+      <a class="category" href="{{ site.data.categories[page.category] | relative_url }}">{{ page.category }}</a>
       {% if page.last_updated %}<span class="updated">Updated {{ page.last_updated | date: "%B %-d, %Y" }}</span>{% endif %}
     </p>
     <h1>{{ page.title }}</h1>
@@ -81,7 +81,7 @@ layout: default
       {% for r in related %}
       <li>
         <a href="{{ r.url | relative_url }}">{{ r.product_name }} Review</a>
-        <span class="category">{{ r.category }}</span>
+        <a class="category" href="{{ site.data.categories[r.category] | relative_url }}">{{ r.category }}</a>
       </li>
       {% endfor %}
     </ul>

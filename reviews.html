@@ -6,6 +6,12 @@ permalink: /reviews/
 
 <h1>All Reviews</h1>
 
+<nav class="category-nav">
+  {% for cat in site.data.categories %}
+  <a href="{{ cat[1] | relative_url }}">{{ cat[0] }}</a>
+  {% endfor %}
+</nav>
+
 <section class="review-grid">
   {% assign reviews = site.reviews | sort: 'date' | reverse %}
   {% if reviews.size > 0 %}
