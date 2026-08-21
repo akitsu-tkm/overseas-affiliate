@@ -194,7 +194,7 @@ Beehiiv's 0% take rate on paid-subscription revenue is a genuine structural diff
 </div>
 </div>
 
-## Which one fits your business
+## Which one fits your situation
 
 **Solo creator planning to sell digital products or a paid newsletter:** Kit or Beehiiv are the two built specifically for this. Kit leans toward automation-heavy audience nurturing and one-off digital product sales; Beehiiv leans toward the newsletter itself as the monetized product, with sponsorships as a built-in revenue stream on top of subscriptions.
 
