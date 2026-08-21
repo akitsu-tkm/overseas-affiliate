@@ -1,7 +1,22 @@
 ---
 layout: default
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ '/' | absolute_url }}" },
+    { "@type": "ListItem", "position": 2, "name": "{{ page.title }}", "item": "{{ page.url | absolute_url }}" }
+  ]
+}
+</script>
 <article class="review">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">{{ page.title }}</span>
+  </nav>
   <header class="review-header">
     <p class="review-meta">
       <span class="category">Category guide</span>
@@ -18,6 +33,7 @@ layout: default
     {% for review in items %}
     <a class="review-card" href="{{ review.url | relative_url }}">
       <span class="category">{{ review.category }}</span>
+      {% if review.rating %}<span class="rating-badge">★ {{ review.rating }}</span>{% endif %}
       <h2>{{ review.title }}</h2>
       {% if review.excerpt %}<p>{{ review.excerpt }}</p>{% endif %}
     </a>

@@ -18,6 +18,7 @@ permalink: /reviews/
     {% for review in reviews %}
     <a class="review-card" href="{{ review.url | relative_url }}">
       <span class="category">{{ review.category }}</span>
+      {% if review.rating %}<span class="rating-badge">★ {{ review.rating }}</span>{% endif %}
       <h2>{{ review.title }}</h2>
       {% if review.excerpt %}<p>{{ review.excerpt }}</p>{% endif %}
     </a>

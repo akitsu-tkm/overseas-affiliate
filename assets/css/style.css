@@ -130,11 +130,29 @@ a:hover { text-decoration: underline; }
   color: var(--accent);
   margin-bottom: 8px;
 }
-.review-card h2 { font-size: 1.1rem; margin: 0 0 8px; }
+.rating-badge {
+  float: right;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px 9px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.review-card h2 { font-size: 1.1rem; margin: 0 0 8px; clear: both; }
 .review-card p { color: var(--text-muted); font-size: 0.92rem; margin: 0; }
 .empty-state { color: var(--text-muted); }
 
 /* Review article */
+.breadcrumbs {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 18px;
+}
+.breadcrumbs a { color: var(--text-muted); }
+.breadcrumbs a:hover { color: var(--accent); }
+.breadcrumbs span[aria-hidden] { margin: 0 6px; }
 .review-header .review-meta {
   font-size: 0.82rem;
   color: var(--text-muted);
@@ -156,6 +174,7 @@ a:hover { text-decoration: underline; }
 }
 
 .cta-box { margin: 24px 0; }
+.cta-box--inline { margin: 20px 0 28px; }
 .cta-button {
   display: inline-block;
   background: var(--accent);
@@ -167,17 +186,81 @@ a:hover { text-decoration: underline; }
 }
 .cta-button:hover { opacity: 0.9; }
 
+/* Pros/Cons */
+.pros-cons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin: 1.2em 0 1.6em;
+}
+@media (max-width: 560px) {
+  .pros-cons { grid-template-columns: 1fr; }
+}
+.pros, .cons {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+.pros { background: color-mix(in srgb, #1f9d55 10%, var(--card-bg)); }
+.cons { background: color-mix(in srgb, #d64545 8%, var(--card-bg)); }
+.pros p, .cons p {
+  margin: 0 0 8px;
+  font-weight: 700;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+.pros ul, .cons ul { list-style: none; margin: 0; padding: 0; }
+.pros li, .cons li {
+  position: relative;
+  padding-left: 1.4em;
+  margin-bottom: 6px;
+  font-size: 0.94rem;
+}
+.pros li::before, .cons li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+.pros li::before { content: "✓"; color: #1f9d55; }
+.cons li::before { content: "✗"; color: #d64545; }
+
 .review-body h2 { margin-top: 2em; }
+.table-scroll {
+  overflow-x: auto;
+  margin: 1.5em 0;
+  -webkit-overflow-scrolling: touch;
+}
 .review-body table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1.5em 0;
+  margin: 0;
 }
 .review-body th, .review-body td {
   border: 1px solid var(--border);
   padding: 8px 12px;
   text-align: left;
 }
+
+.toc {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin: 24px 0;
+  font-size: 0.88rem;
+}
+.toc-title {
+  margin: 0 0 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+.toc ul { margin: 0; padding-left: 1.1em; }
+.toc li { margin-bottom: 4px; }
 
 .related-reviews {
   margin: 40px 0 24px;
