@@ -3,7 +3,7 @@ title: "Paymo Review: Is It Worth Paying For? (Compared to Harvest, Toggl Track,
 product_name: "Paymo"
 category: "Project Management"
 asp: "FirstPromoter"
-affiliate_link: "https://www.paymoapp.com?ref=takumi76"
+affiliate_link: "https://www.paymoapp.com?ref=staysaas-paymo"
 rating: 4.2
 date: 2026-08-21
 last_updated: 2026-08-21
