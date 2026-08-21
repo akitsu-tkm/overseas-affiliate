@@ -59,6 +59,11 @@ If a genuinely permanent, no-catch free tier for a small team matters most, Clic
 | **Asana** | Starter: $13.49/seat/mo billed monthly, no published seat minimum | Starter annual: $10.99/seat/mo; Advanced annual: $24.99/seat/mo (Advanced monthly: $30.49/seat) | Structured, opinionated task and workflow management with strong cross-team reporting, popular with marketing and ops teams |
 | **Trello** | Standard: $6/seat/mo billed monthly, no seat minimum | Standard annual: $5/seat/mo; Premium annual: $10/seat/mo (Premium monthly: $12.50/seat); Enterprise: $17.50/seat/mo billed annually ($210/seat/year) | The simplest kanban-board model of the five, best for teams that want boards and cards without a steep configuration curve |
 
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/monday-pricing.jpg' | relative_url }}" alt="Monday.com's official pricing page showing Free, Basic, Standard, Pro, and Enterprise plans at 3 seats" loading="lazy">
+  <figcaption>Monday.com's pricing page, checked directly against the live site (August 2026). Shown in JPY due to regional pricing detection — ¥1,300/seat/month ≈ $9/seat/month, matching the USD figure above.</figcaption>
+</figure>
+
 Monday.com's 3-seat minimum is worth flagging clearly: a 2-person team choosing Basic annual effectively pays for 3 seats ($27/month) even though only 2 people are using it, which changes the real per-person cost compared to a tool with no seat floor.
 
 ## The breakdown, tool by tool

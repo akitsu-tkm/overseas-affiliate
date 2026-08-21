@@ -45,6 +45,11 @@ I've watched a freelance friend's invoicing process up close: tracked hours in o
 | Everhour | Up to 5 seats, time tracking, projects and tasks, reports, data export | No integrations at all on free — Everhour's core value (syncing into Asana, Trello, ClickUp, etc.) is entirely locked behind the paid tier |
 | Hubstaff | No free plan — 14-day free trial with all features, no credit card required | Nothing to fall back on after the trial ends; every ongoing plan requires payment |
 
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/paymo-pricing.jpg' | relative_url }}" alt="Paymo's official pricing page showing the Free plan's included features" loading="lazy">
+  <figcaption>Paymo's pricing page, checked directly against the live site (August 2026).</figcaption>
+</figure>
+
 Paymo and Harvest both give a genuinely usable single-user free tier for someone with one steady client relationship. Toggl Track and Everhour's free tiers support a small team headcount-wise but hold back the features (integrations, approvals, profitability data) that make either tool worth adopting for real project work. Hubstaff is the outlier with no ongoing free option at all — the trial is generous, but there's no low-commitment way to keep using a stripped-down version afterward.
 
 ## How they compare

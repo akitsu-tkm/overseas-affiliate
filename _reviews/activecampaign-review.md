@@ -47,6 +47,11 @@ The workflow moment that makes this concrete: a small services business sets up 
 | **Keap** | From $299/mo billed annually ($2,988/year), 2 users included, +$39/mo per additional user | Automation, CRM, and invoicing are all included from the single main plan | All-in-one CRM, invoicing, and marketing automation for solopreneurs and small service businesses |
 | **GetResponse** | Starter: $19/mo ($15.58/mo billed annually) | Marketer tier ($59/mo, or $48.38/mo annually) unlocks unlimited automation, abandoned-cart recovery, and sales funnels — Starter includes only 1 automation workflow | Email marketing platform with automation, landing pages, and (on higher tiers) course/webinar tools added on |
 
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/activecampaign-pricing.jpg' | relative_url }}" alt="ActiveCampaign's official pricing page showing Starter, Plus, Pro, and Enterprise plans at 1,000 contacts" loading="lazy">
+  <figcaption>ActiveCampaign's pricing page, checked directly against the live site (August 2026).</figcaption>
+</figure>
+
 The HubSpot jump is the one worth flagging most clearly: Starter sits in the same price range as ActiveCampaign or GetResponse, but Professional — the tier where the automation, attribution, and reporting most people actually associate with "HubSpot" live — costs roughly 40-50x more per month, before the mandatory onboarding fee is even added in. That's not a criticism of HubSpot's product, which is built for a different scale of team, but it does mean the entry price on its own tells you very little about what you'd actually pay to get the features that make it worth choosing over the other four.
 
 ## The breakdown, tool by tool

@@ -227,6 +227,22 @@ a:hover { text-decoration: underline; }
 .cons li::before { content: "✗"; color: #d64545; }
 
 .review-body h2 { margin-top: 2em; }
+.review-body figure.screenshot {
+  margin: 1.5em 0;
+}
+.review-body figure.screenshot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.review-body figure.screenshot figcaption {
+  margin-top: 8px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  text-align: center;
+}
 .table-scroll {
   overflow-x: auto;
   margin: 1.5em 0;

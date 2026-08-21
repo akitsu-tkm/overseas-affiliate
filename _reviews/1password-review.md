@@ -59,6 +59,11 @@ The practical upshot: if trying before buying matters to you, Bitwarden, NordPas
 | **NordPass** | List annual rate around $2.99/mo ($35.88/year) — frequently discounted lower for new customers on 1- or 2-year terms | Family: roughly $3.69-4/mo on promotional terms — up to 6 users | XChaCha20, a newer, faster alternative to AES-256 |
 | **Proton Pass** | $4.99/mo billed monthly, or around $2.99/mo billed annually ($35.88/year) | Family bundle available for up to 6 users (pricing not publicly fixed — quoted at checkout) | AES-256, open-source clients, company based in Switzerland |
 
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/1password-pricing.jpg' | relative_url }}" alt="1Password's official pricing page showing Individual and Families plan pricing" loading="lazy">
+  <figcaption>1Password's pricing page, checked directly against the live site (August 2026).</figcaption>
+</figure>
+
 A caveat worth repeating: the 1Password, NordPass, and Proton Pass figures above include or are adjacent to promotional pricing that's explicitly limited to new customers or specific term lengths — none of the three vendors publish a single, stable "this is what everyone pays" number the way Bitwarden does. Treat these as a starting point for comparison, not a guarantee of what you'll be charged a year from now, and check the live checkout price before committing to an annual plan.
 
 ## The breakdown, tool by tool

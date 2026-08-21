@@ -51,11 +51,16 @@ If starting with a real free tier matters most, Beehiiv's 2,500-subscriber ceili
 
 | Tool | Entry paid price | What it covers | What you're really paying for |
 |---|---|---|---|
-| **Kit** | $33/mo (Creator), or $27.30/mo billed annually — up to 1,000 subscribers | Unlimited automations, email sequences, A/B testing, SMS marketing | Creator-focused automation and audience-growth tools, with a visual builder that doesn't require code |
+| **Kit** | $39/mo (Creator), or $33/mo billed annually ($390/year) — up to 1,000 subscribers | Unlimited automations, email sequences, A/B testing, SMS marketing | Creator-focused automation and audience-growth tools, with a visual builder that doesn't require code |
 | **Mailchimp** | Essentials from ~$13/mo, Standard from ~$20/mo — both start at 500 contacts and scale up from there (Essentials reaches roughly $75/mo and Standard roughly $100/mo around 5,000 contacts) | Essentials: branded templates, basic testing, 3 seats. Standard: AI tools, up to 200 automation workflows, predictive segmentation, 5 seats | A broad marketing suite — email is one piece of a platform that also covers landing pages, basic CRM, and ad integrations |
 | **MailerLite** | Comfort from $12/mo monthly ($10.80/mo billed annually) | Unlimited templates, 50 automations, 10 landing pages, AI writing assistant, preference center | The lowest entry price in this group for a genuinely full feature set, with Power ($25/mo) adding unlimited subscribers and 24/7 live chat |
 | **AWeber** | Lite from $15/mo monthly ($12.49/mo billed annually) — up to 500 subscribers | 1 email list, 3 landing pages, 3 automations, 3 user seats | A straightforward, long-established platform; Plus ($30/mo, or $19.99/mo annually) removes most of Lite's list, automation, and seat limits |
 | **Beehiiv** | Scale at $43/mo monthly ($43.08/mo effective annually, billed as $517/year) — up to 100,000 subscribers | Ad Network access, paid subscriptions at 0% platform take rate, digital products, community features, 3 team seats | Newsletter growth and monetization tools specifically, including sponsorship and paid-subscription infrastructure the other four don't offer natively |
+
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/kit-pricing.jpg' | relative_url }}" alt="Kit's official pricing page showing the Newsletter, Creator, and Pro plans" loading="lazy">
+  <figcaption>Kit's pricing page, checked directly against the live site (August 2026).</figcaption>
+</figure>
 
 Kit is also worth flagging on its own: it raised prices by roughly 35% across its paid plans in September 2025 — its first price increase in twelve years, and a large enough jump that it's worth checking the current live price on Kit's pricing page rather than any older figure you might have seen elsewhere, since plenty of comparison articles online still reference pre-increase numbers.
 

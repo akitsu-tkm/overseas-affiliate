@@ -57,6 +57,11 @@ Pitch and Gamma both give you a real, no-time-limit free account — the catch o
 | **Pitch** | €10/mo (Plus, billed annually with a 17% discount vs. monthly) | Generous free tier with genuinely unlimited presentations, not just a capped project count | Pricing is published in euros; a persistent free tier exists, but AI credits on it are a one-time 100-credit pool, not monthly |
 | **Gamma** | $9/seat/month billed annually (Plus tier, $108/year) | Also generates full documents and simple webpages from the same prompt, not just slide decks | Monthly (non-annual) billing runs noticeably higher than the annual rate — sources on Gamma's own current monthly pricing vary by roughly $2-5/tier, so it's worth confirming the live number before committing to monthly |
 
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/decktopus-pricing.jpg' | relative_url }}" alt="Decktopus's official pricing page showing the Pro plan at $9.99/mo billed annually" loading="lazy">
+  <figcaption>Decktopus's pricing page, checked directly against the live site (August 2026).</figcaption>
+</figure>
+
 Decktopus's Business tier (1,000 AI credits per seat per month, team workspace, custom domain, brand kit, priority support) doesn't have a public price on the pricing page — it's presented alongside Enterprise as a "let's talk" tier, which is unusual in a category where most competitors publish per-seat team pricing directly. All prices above were checked directly against each vendor's official pricing page as of this writing; AI-tool pricing in particular tends to shift often, so it's worth a quick recheck before committing to an annual plan.
 
 ## The breakdown, tool by tool

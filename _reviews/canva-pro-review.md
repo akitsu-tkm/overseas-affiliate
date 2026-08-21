@@ -63,6 +63,11 @@ Piktochart's free tier is the most restrictive of the group — capping active p
 | **Piktochart Pro** | $15/mo billed monthly, or $10/mo billed annually ($120/year) | Purpose-built for infographics and data storytelling | Weaker general template library outside of data/report formats |
 | **VistaCreate Pro** | $13/mo billed monthly, or $10/mo billed annually — and that single price covers up to 10 team seats | Cheapest tier-for-tier, with team seats bundled in rather than charged per user | Smaller stock library (70M+) than Canva or Adobe Express, and fewer brand-governance controls |
 
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/canva-pro-pricing.jpg' | relative_url }}" alt="Canva's official pricing page showing the Free, Pro, Business, and Enterprise plans" loading="lazy">
+  <figcaption>Canva's pricing page, checked directly against the live site (August 2026). Shown in JPY (¥11,800/year ≈ $144/year) due to regional pricing detection — the USD figure above matches.</figcaption>
+</figure>
+
 Worth noting: every tool here has a usable free plan. The paid tiers exist mainly to remove watermarks, unlock the premium asset libraries, and add brand/team controls — not to unlock basic functionality. Prices above are individual/entry-tier rates confirmed directly against each vendor's pricing pages as of this writing; SaaS pricing changes without much notice, so it's worth a quick check against the current pricing page before you commit to an annual plan.
 
 ## The breakdown, tool by tool
