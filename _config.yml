@@ -9,7 +9,7 @@ timezone: Asia/Tokyo
 logo: /assets/images/og-default.png
 
 author:
-  name: StaySaaS Team
+  name: Takumi Nakamura
 
 # GitHub Pages builds Jekyll with this exact plugin whitelist by default —
 # all three below are safe to use without a custom build step.
