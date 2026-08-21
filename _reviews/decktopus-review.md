@@ -3,7 +3,7 @@ title: "Decktopus Review: Is It Worth Paying For? (Compared to Canva, Beautiful.
 product_name: "Decktopus"
 category: "Design & Creative"
 asp: "Rewardful"
-affiliate_link: "https://www.decktopus.com/pricing"  # TODO: replace with real Rewardful tracking link once the Decktopus affiliate application is approved
+affiliate_link: "https://www.decktopus.com?via=takumi"
 rating: 4.1
 date: 2026-08-19
 last_updated: 2026-08-19
