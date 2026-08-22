@@ -6,7 +6,7 @@ asp: "Impact"
 affiliate_link: "https://www.babbel.com/"  # TODO: replace with real Impact tracking link once the Babbel affiliate application is approved
 rating: 4.2
 date: 2026-08-19
-last_updated: 2026-08-19
+last_updated: 2026-08-22
 excerpt: "Babbel, Duolingo, Rosetta Stone, Busuu, and Pimsleur all promise fluency, but they teach in genuinely different ways and price themselves even more differently. Here's how they actually compare — including what happens to the price after the first term."
 faq:
   - q: "Can any of these get me to actual conversational fluency on their own?"
@@ -53,7 +53,7 @@ If trying before paying matters most to you, Duolingo is the only one of the fiv
 
 | Tool | Entry price | Longer-term option | What it's really for |
 |---|---|---|---|
-| **Babbel** | $14.99/mo for one language, month-to-month | 12-month plan: $7.99/mo ($95.88 billed upfront); lifetime access to all 14 languages typically runs $249-299 as a one-time purchase | Structured grammar and conversation courses in a specific language |
+| **Babbel** | $14.99/mo for one language, month-to-month | 12-month plan: $8.95/mo ($107.40 billed upfront); lifetime access to all 14 languages runs around $299 as a one-time purchase | Structured grammar and conversation courses in a specific language |
 | **Duolingo** | Free, or Super at $12.99/mo month-to-month | Super annual: roughly $84-96/year (~$7-8/mo effective); Family plan (up to 6 accounts): around $119.99/year; Max tier (adds AI-powered features) runs $29.99/mo | Daily-habit, gamified practice across 40+ languages |
 | **Rosetta Stone** | $19.99/mo month-to-month, all 25 languages included | Annual plan: $159/year (~$13.25/mo) | Immersive, no-translation structured courses |
 | **Busuu** | Free, or Premium around $13.99/mo month-to-month | Premium annual: around $69.99/year (~$5.83/mo); Premium Plus (adds official McGraw Hill certificates): around $83.99/year | Short lessons plus native-speaker feedback on your writing and speaking |
@@ -63,7 +63,7 @@ Pimsleur's renewal jump is the clearest, most concrete example of the "check the
 
 <figure class="screenshot">
   <img src="{{ '/assets/images/screenshots/babbel-pricing.jpg' | relative_url }}" alt="Babbel's pricing page showing 3-month, 12-month, and lifetime individual plan options" loading="lazy">
-  <figcaption>Babbel's pricing page, checked directly against the live site (August 2026) — the 12-month plan at $8.95/mo ($107.40/year) is close to the $95.88/year figure above; exact promotional pricing fluctuates.</figcaption>
+  <figcaption>Babbel's pricing page, checked directly against the live site (August 2026) — 12-month plan at $8.95/mo ($107.40/year), matching the figure above; exact promotional pricing fluctuates.</figcaption>
 </figure>
 
 ## The breakdown, tool by tool
@@ -87,7 +87,7 @@ Pimsleur's renewal jump is the clearest, most concrete example of the "check the
 **Cons**
 
 - No standing free tier — the free first lesson is a sample, not a way to make real progress before paying
-- Monthly pricing ($14.99) is per single language, and the price gap between monthly and the 12-month plan ($7.99/mo) is large enough that committing to at least six months is close to mandatory for the pricing to make sense
+- Monthly pricing ($14.99) is per single language, and the price gap between monthly and the 12-month plan ($8.95/mo) is large enough that committing to at least six months is close to mandatory for the pricing to make sense
 - Content depth thins out for less commonly taught languages compared to the flagship options (Spanish, French, German)
 
 </div>
@@ -206,7 +206,7 @@ Pimsleur's renewal jump is the clearest, most concrete example of the "check the
 
 ## Which one fits your situation
 
-**Want real grammar instruction and can commit to at least six months:** Babbel's 12-month plan, at $7.99/mo, is the best-value structured course in this group — just budget around the annual commitment rather than the $14.99/mo sticker price.
+**Want real grammar instruction and can commit to at least six months:** Babbel's 12-month plan, at $8.95/mo, is the best-value structured course in this group — just budget around the annual commitment rather than the $14.99/mo sticker price.
 
 **Want to try multiple languages with zero financial risk:** Duolingo. It's the only app here where "free" isn't a countdown, and the breadth of languages makes it the natural starting point before committing money anywhere.
 
