@@ -48,6 +48,11 @@ I helped a friend's six-person consulting shop untangle exactly this a while bac
 | **Keap** | $299/mo (single plan, 2 users included; $2,988/year annually, roughly $249/mo effective) | No — free trial only, credit card not required to start | Full CRM, marketing automation, and payment processing in one contract, with no feature-gated tiers to navigate | Entry price is far above every other tool here; contact-volume limits are set individually at signup rather than published as fixed tiers |
 | **ActiveCampaign** | Roughly $15/mo (Starter, ~1,000 contacts, billed annually) | No — 14-day free trial, no credit card required | Deep email automation and segmentation, with a large integration library | CRM (Pipelines) and sales engagement features are sold as separate add-ons on every tier, not bundled into the base price the way they are with EngageBay, Zoho CRM, or Freshsales |
 
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/engagebay-pricing.jpg' | relative_url }}" alt="EngageBay's official pricing page showing Free, Basic, Growth, and Pro plans billed monthly" loading="lazy">
+  <figcaption>EngageBay's pricing page, checked directly against the live site (August 2026).</figcaption>
+</figure>
+
 All prices above were checked directly against each vendor's official pricing page, current as of this writing. Zoho CRM and ActiveCampaign's paid pricing above reflects USD figures converged across multiple independent third-party sources, since their official pricing pages either returned regional currency or required an interactive calculator rather than displaying static USD figures. HubSpot's Starter Customer Platform is shown at its standard list price of $20/mo per seat rather than any limited-time promotional rate. Per-user prices billed monthly generally run higher than the annual rate shown for each tool — worth confirming against the exact billing cadence before comparing sticker prices across vendors.
 
 ## The breakdown, tool by tool
