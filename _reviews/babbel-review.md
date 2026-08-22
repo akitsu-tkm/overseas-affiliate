@@ -61,6 +61,11 @@ If trying before paying matters most to you, Duolingo is the only one of the fiv
 
 Pimsleur's renewal jump is the clearest, most concrete example of the "check the second year" issue in this category — it's a published, confirmed number, not a rumor. It's a reasonable assumption that similar gaps exist informally on the other subscription-based apps here even where the exact renewal figure isn't published as clearly.
 
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/babbel-pricing.jpg' | relative_url }}" alt="Babbel's pricing page showing 3-month, 12-month, and lifetime individual plan options" loading="lazy">
+  <figcaption>Babbel's pricing page, checked directly against the live site (August 2026) — the 12-month plan at $8.95/mo ($107.40/year) is close to the $95.88/year figure above; exact promotional pricing fluctuates.</figcaption>
+</figure>
+
 ## The breakdown, tool by tool
 
 ### Babbel
