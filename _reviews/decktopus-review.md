@@ -91,6 +91,11 @@ Decktopus's Business tier (1,000 AI credits per seat per month, team workspace, 
 </div>
 </div>
 
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/decktopus-dashboard.jpg' | relative_url }}" alt="Decktopus's create screen, showing the AI presentation prompt box after signing up" loading="lazy">
+  <figcaption>Decktopus's presentation-creation screen on a new account, set up to check this review's claims firsthand.</figcaption>
+</figure>
+
 <div class="cta-box cta-box--inline">
   <a class="cta-button" href="{{ page.affiliate_link }}" target="_blank" rel="sponsored nofollow noopener">
     Try {{ page.product_name }} →

@@ -91,6 +91,11 @@ All prices above were checked directly against each vendor's official pricing pa
 </div>
 </div>
 
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/paymo-dashboard.jpg' | relative_url }}" alt="Paymo's dashboard showing time tracked this month, active projects, and billable-vs-non-billable hours" loading="lazy">
+  <figcaption>Paymo's dashboard on a free-tier account, set up to check this review's claims firsthand.</figcaption>
+</figure>
+
 <div class="cta-box cta-box--inline">
   <a class="cta-button" href="{{ page.affiliate_link }}" target="_blank" rel="sponsored nofollow noopener">
     Try {{ page.product_name }} →
