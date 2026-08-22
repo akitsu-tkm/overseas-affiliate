@@ -93,6 +93,11 @@ Beehiiv's 0% take rate on paid-subscription revenue is a genuine structural diff
 </div>
 </div>
 
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/kit-dashboard.jpg' | relative_url }}" alt="Kit's dashboard on a new free-tier account, showing subscriber and conversion-rate stats" loading="lazy">
+  <figcaption>Kit's dashboard on a free-tier account, set up to check this review's claims firsthand.</figcaption>
+</figure>
+
 <div class="cta-box cta-box--inline">
   <a class="cta-button" href="{{ page.affiliate_link }}" target="_blank" rel="sponsored nofollow noopener">
     Try {{ page.product_name }} →

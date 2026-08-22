@@ -88,6 +88,11 @@ Pimsleur's renewal jump is the clearest, most concrete example of the "check the
 </div>
 </div>
 
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/babbel-dashboard.jpg' | relative_url }}" alt="Babbel's lesson dashboard on a new account, showing the first Spanish unit and a level-placement option" loading="lazy">
+  <figcaption>Babbel's lesson dashboard on a new account, set up to check this review's claims firsthand.</figcaption>
+</figure>
+
 <div class="cta-box cta-box--inline">
   <a class="cta-button" href="{{ page.affiliate_link }}" target="_blank" rel="sponsored nofollow noopener">
     Try {{ page.product_name }} →

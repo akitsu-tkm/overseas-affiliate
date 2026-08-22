@@ -93,6 +93,11 @@ Monday.com's 3-seat minimum is worth flagging clearly: a 2-person team choosing 
 </div>
 </div>
 
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/monday-dashboard.jpg' | relative_url }}" alt="Monday.com's board view on a new free-tier account, showing color-coded status, priority, and timeline columns" loading="lazy">
+  <figcaption>Monday.com's board view on a free-tier account, set up to check this review's claims firsthand.</figcaption>
+</figure>
+
 <div class="cta-box cta-box--inline">
   <a class="cta-button" href="{{ page.affiliate_link }}" target="_blank" rel="sponsored nofollow noopener">
     Try {{ page.product_name }} →
