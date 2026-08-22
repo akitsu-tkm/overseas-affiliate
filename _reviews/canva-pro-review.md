@@ -3,7 +3,7 @@ title: "Canva Pro Review: Is It Worth Paying For? (Compared to Adobe Express, Vi
 product_name: "Canva Pro"
 category: "Design & Creative"
 asp: "Impact"
-affiliate_link: "https://www.canva.com/canva-pro/"  # TODO: replace with real Impact tracking link once the Canva Pro affiliate application is approved
+affiliate_link: "https://www.canva.com/pro/"  # TODO: no working affiliate link yet — Impact application was rejected ("could not verify business"); replace with a real tracking link if an alternate ASP/direct program is found
 rating: 4.4
 date: 2026-08-19
 last_updated: 2026-08-19
