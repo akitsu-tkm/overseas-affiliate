@@ -65,6 +65,11 @@ Coursera's audit mode is the most genuinely useful "free" option here, since it'
 
 Every platform here runs frequent promotional discounts — Coursera Plus in particular is regularly advertised well below its $399 list price — so the figures above are list prices, not necessarily what you'll be offered at checkout.
 
+<figure class="screenshot">
+  <img src="{{ '/assets/images/screenshots/skillshare-pricing.jpg' | relative_url }}" alt="Skillshare's official pricing page showing the $13.99/month annual plan" loading="lazy">
+  <figcaption>Skillshare's pricing page, checked directly against the live site (August 2026) — $13.99/mo billed annually ($167.88/year), matching the figure above.</figcaption>
+</figure>
+
 ## The breakdown, tool by tool
 
 ### Skillshare
